@@ -22,7 +22,6 @@ class MainActivity : ComponentActivity() {
         setContent {
             AnimeApiTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    val viewModel = hiltViewModel<AnimeListViewModel>()
                     val navController = rememberNavController()
                     NavHostAnime(navController,innerPadding)
                 }

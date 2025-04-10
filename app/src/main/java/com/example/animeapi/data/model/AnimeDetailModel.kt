@@ -2,7 +2,6 @@ package com.example.animeapi.data.model
 
 import com.google.gson.annotations.SerializedName
 
-
 data class AnimeDetailModel(
     val title: String,
     val synopsis: String,

@@ -29,7 +29,6 @@ fun NavHostAnime(navController: NavHostController, innerPadding: PaddingValues) 
             if(animeId != null){
                 AnimeDetailPage(viewModel = detailViewModel, id = animeId.toInt())
             }
-
         }
 
     }

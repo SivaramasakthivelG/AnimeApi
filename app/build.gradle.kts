@@ -77,5 +77,6 @@ dependencies {
     implementation(libs.hilt.compose.navigation)
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7")
     implementation("io.coil-kt:coil-compose:2.2.2")
+    implementation("com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0")
 
 }
