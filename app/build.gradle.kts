@@ -76,5 +76,6 @@ dependencies {
     kapt(libs.dagger.kapt)
     implementation(libs.hilt.compose.navigation)
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7")
+    implementation("io.coil-kt:coil-compose:2.2.2")
 
 }

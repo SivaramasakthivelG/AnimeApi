@@ -17,7 +17,7 @@ object HiltModule {
     @Provides
     @Singleton
     fun provideRetrofit(): Retrofit {
-        return Retrofit.Builder().baseUrl("https://api.jikan.moe/v4/top/anime")
+        return Retrofit.Builder().baseUrl("https://api.jikan.moe/v4/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }
