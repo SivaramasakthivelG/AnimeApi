@@ -1,5 +1,7 @@
 package com.example.animeapi.ui.view
 
+import android.os.Build
+import androidx.annotation.RequiresApi
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -26,6 +28,7 @@ import com.example.animeapi.data.model.AnimeDetailModel
 import com.example.animeapi.ui.view_model.AnimeDetailsViewModel
 import com.example.animeapi.ui.view_model.UiStateDetail
 
+@RequiresApi(Build.VERSION_CODES.O)
 @Composable
 fun AnimeDetailPage(viewModel: AnimeDetailsViewModel, id: Int) {
     val uiState by viewModel.uiStateDetail.collectAsState()
