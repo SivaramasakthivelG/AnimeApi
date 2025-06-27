@@ -79,8 +79,8 @@ fun AnimeListPage(
             )
         },
         floatingActionButton = {
-            XmlView {
-                Toast.makeText(context, "Button Clicked", Toast.LENGTH_SHORT).show()
+            XmlView { a, b ->
+                Toast.makeText(context, "a,$b", Toast.LENGTH_SHORT).show()
             }
         }
     ) { paddingValues ->

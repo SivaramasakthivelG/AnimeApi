@@ -35,8 +35,6 @@
             android:exported="false"
             android:foregroundServiceType="dataSync"
             tools:ignore="ForegroundServicePermission" />
-
-
     </application>
 
 

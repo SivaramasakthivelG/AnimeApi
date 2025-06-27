@@ -3,6 +3,7 @@ package com.example.animeapi.ui.view
 import android.content.Intent
 import android.os.Build
 import androidx.annotation.RequiresApi
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.runtime.Composable
@@ -66,12 +67,12 @@ fun YouTubePlayerView(
                         ContextCompat.startForegroundService(context, intent)
                     }
                 }
+
             })
             youTubePlayerView
         },
         modifier = Modifier
-            .fillMaxWidth()
-            .height(300.dp)
+            .fillMaxSize()
     )
 }
 
